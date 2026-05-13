@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Data
+*.csv
+*.zip
+data/
+
+# Models
+*.h5
+*.pkl
+*.joblib
+*.tflite
+*.bin
+*.pt
+
+# MLFlow
+mlruns/
+mlartifacts/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Azure
+.azure/
+
+# BERTweet training output
+bertweet_output/
+logs/
+
+# Models (trop lourds pour GitHub)
+models/
+
+# MLFlow database locale
+notebooks/mlflow.db
+
+# Plans/specs Claude Code
+docs/superpowers/
